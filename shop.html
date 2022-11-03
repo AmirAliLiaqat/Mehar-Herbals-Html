@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Mehar Herbals</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- favicon image -->
+	<link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <!-- font awesome cdn -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- slick slider cssc cdn -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <!-- bootstrap css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- header section start -->
+    <header id="top">
+        <div class="top-header">
+            <div class="container">
+                    <div class="row py-2">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="contact-details">
+                                <p class="d-inline-block"><i class="fa-solid fa-phone-flip"></i> +92 03090886518 &nbsp;&nbsp;</p>
+                                <p class="d-inline-block"><i class="fa-solid fa-envelope"></i> amirliaqat2020@gmail.com</p>
+                            </div><!--contact-details-->
+                        </div><!--col-lg-6-->
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="social-links text-end">
+                                <a href="#" class="links"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#" class="links"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#" class="links"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#" class="links"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                <div class="dropdown d-inline-block">
+                                    <button class="btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa-solid fa-user"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item top-header-dropdown mx-0" href="register.html">Register</a></li>
+                                    <li><a class="dropdown-item top-header-dropdown mx-0" href="login.html">Login</a></li>
+                                    </ul>
+                                </div><!--dropdown-->
+                            </div><!--social-links-->
+                        </div><!--col-lg-6-->
+                    </div><!--row-->
+            </div><!--container-->
+        </div><!--top-header-->
+        <div class="main-header">
+            <div class="container">
+                <div class="main-header-inner header-inner py-4">
+                    <div class="left-nav-menu">
+                        <a href="index.html">Home</a>
+                        <div class="dropdown d-inline-block">
+                            <a class="btn text-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item main-header-dropdown mx-0" href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                            <li><a class="dropdown-item main-header-dropdown mx-0" href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                            </ul>
+                        </div><!--dropdown-->
+                        <a href="shop.html">Shop</a>
+                    </div><!--left-nav-menu-->
+                    <div class="brand w-50 text-center">
+                        <a href="index.html"><img src="images/logo.png" alt="logo" style="width: 50%;"></a>
+                    </div><!--brand-->
+                    <div class="right-nav-menu">
+                        <a href="about.html">About Us</a>
+                        <a href="contact.html">Contact Us</a>
+                        <a href="cart.html">
+                            <i class="fa-solid fa-cart-shopping fa-2x"></i>(4)
+                        </a>
+                        <a href="wishlist.html">
+                            <i class="fa-solid far fa-heart fa-2x"></i>(3)
+                        </a>
+                    </div><!--right-nav-menu-->
+                </div><!--main-header-inner-->
+                <div class="sub-header">
+                    <div class="sub-header d-flex justify-content-between py-2">
+                        <div class="menu">
+                            <button class="btn border" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                                <i class="fa-solid fa-2x fa-bars"></i>
+                            </button>
+    
+                            <div class="offcanvas offcanvas-start p-3" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                                <div class="offcanvas-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div><!--offcanvas-header-->
+                                <div class="offcanvas-body">
+                                    <p><a href="index.html">Home</a></p>
+                                    <p>
+                                        <div class="dropdown">
+                                            <a class="btn text-dark dropdown-toggle mx-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Blog
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item main-header-dropdown mx-0" href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                                            <li><a class="dropdown-item main-header-dropdown mx-0" href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                                            </ul>
+                                        </div><!--dropdown-->
+                                    </p>
+                                    <p><a href="shop.html">Shop</a></p>
+                                    <p><a href="about.html">About Us</a></p>
+                                    <p><a href="contact.html">Contact Us</a></p>
+                                </div><!--offcanvas-body-->
+                            </div><!--offcanvas-->
+                        </div><!--menu-->
+                        <div class="brand text-center w-50">
+                            <a href="index.html"><img src="images/logo.png" alt="logo" style="width: 50%;"></a>
+                        </div><!--brand-->
+                        <div class="shop-icons">
+                            <a href="cart.html">
+                                <i class="fa-solid fa-cart-shopping fa-2x"></i>(4)
+                            </a>
+                            <a href="wishlist.html">
+                                <i class="fa-solid far fa-heart fa-2x"></i>(3)
+                            </a>
+                        </div><!--shop-icons-->
+                    </div><!--sub-header-->
+                </div><!--sub-header-->
+            </div><!--container-->
+        </div><!--main-header-->
+    </header>
+    <!-- header section end -->
+
+    <!-- main-banner start -->
+    <section class="main-banner">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Shop</li>
+                </ol>
+            </nav>
+            <h1 class="display-1 text-capitalize mb-5">Shop</h1>
+        </div><!--container-->
+    </section>
+    <!-- main-banner end -->
+    
+    <!-- shop section start -->
+    <section class="shop">
+        <div class="container py-5">
+            <div class="row py-5">
+
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="sidebar">
+                        <div class="sidebar_widget pb-5">
+                            <div class="widget_title text-center my-3">
+                                <h4 class="site_font">Search</h4>
+                            </div><!--widget_title-->
+                            <form>
+                                <input type="text" class="contact-fields" placeholder="Search your keyword...">
+                                <button type="submit" class="search_btn"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div><!--sidebar_widget-->
+                        <div class="sidebar_widget py-5">
+                            <div class="widget_title text-center my-3">
+                                <h4 class="site_font">Product Types</h4>
+                            </div><!--widget_title-->
+                            <ul class="list-unstyled contact-ul">
+                                <li class="pb-2"><a href="#" class="nav-links">All Products <span class="float-end">30</span></a></li>
+                                <li class="pb-2"><a href="#" class="nav-links">Oil Products <span class="float-end">06</span></a></li>
+                                <li class="pb-2"><a href="#" class="nav-links">Soap Products <span class="float-end">09</span></a></li>
+                                <li class="pb-2"><a href="#" class="nav-links">Herbal Products <span class="float-end">15</span></a></li>
+                            </ul>
+                            <div class="text-center"><button class="site_btn">View More +</button></div><!--text-center-->
+                        </div><!--sidebar_widget-->
+                        <div class="sidebar_widget py-5">
+                            <div class="widget_title text-center my-3">
+                                <h4 class="site_font">Filter</h4>
+                            </div><!--widget_title-->
+                            <h6>Price</h6>
+                            <p>Choose price below.</p>
+                            <div class="widget_range">
+                                <input type="range" class="form-range" min="0" max="100" id="range">
+                            </div>
+                        </div><!--sidebar_widget-->
+                        <div class="sidebar_widget py-5">
+                            <div class="widget_title text-center my-3">
+                                <h4 class="site_font">Popular</h4>
+                            </div><!--widget_title-->
+                            <div class="tags">
+                                <button><a href="#">Medical</a></button>
+                                <button><a href="#">Amla Oil</a></button>
+                                <button><a href="#">Almond Oil</a></button>
+                                <button><a href="#">Oils</a></button>
+                                <button><a href="#">Plants</a></button>
+                                <button><a href="#">Soaps</a></button>
+                                <button><a href="#">Tablets</a></button>
+                                <button><a href="#">Smokeing</a></button>
+                            </div><!--tags-->
+                        </div><!--sidebar_widget-->
+                    </div><!--sidebar-->
+                </div><!--col-lg-3-->
+
+                <div class="col-lg-9 col-md-9 col-sm-12">
+                    <div class="row px-3 my-2">
+                        <div class="col-lg-8 col-md-8 col-sm-12">
+                            <form action="" method="post">
+                                <select name="filter" class="select">
+                                    <option value="1">Sort By</option>
+                                    <option value="2">Price</option>
+                                    <option value="3">Latest</option>
+                                    <option value="4">Rating</option>
+                                </select>
+                            </form>
+                        </div><!--col-lg-4-->
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <p>Showing all 12 results</p>
+                        </div><!--col-lg-4-->
+                    </div><!--row-->
+
+                    <div class="row my-3">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="shop-inner my-2">
+                                <div class="shop-inner-most text-center py-5">
+                                    <img src="images/amla-oil.png" style="width: 100%;">
+                                    <h4 class="my-3">Bread Oil</h4>
+                                    <p class="site_price">$45.00</p>
+                                    <a href="shop.html?action=add_to_cart" class="shop_btn my-5" name="add_to_cart">Add to cart</a>
+                                </div><!--shop-inner-most-->
+                                <div class="shop-actions">
+                                    <a href="view-product.html"><i class="fa-solid fa-eye"></i></a>
+                                    <a href="shop.html?action=add_to_wishlist"><i class="fa-solid far fa-heart"></i></a>
+                                </div><!--shop-actions-->
+                            </div><!--shop-inner-->
+                        </div><!--col-lg-4-->
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="shop-inner my-2">
+                                <div class="shop-inner-most text-center py-5">
+                                    <img src="images/amla-oil.png" style="width: 100%;">
+                                    <h4 class="my-3">Bread Oil</h4>
+                                    <p class="site_price">$45.00</p>
+                                    <a href="shop.html?action=add_to_cart" class="shop_btn my-5" name="add_to_cart">Add to cart</a>
+                                </div><!--shop-inner-most-->
+                                <div class="shop-actions">
+                                    <a href="view-product.html"><i class="fa-solid fa-eye"></i></a>
+                                    <a href="shop.html?action=add_to_wishlist"><i class="fa-solid far fa-heart"></i></a>
+                                </div><!--shop-actions-->
+                            </div><!--shop-inner-->
+                        </div><!--col-lg-4-->
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="shop-inner my-2">
+                                <div class="shop-inner-most text-center py-5">
+                                    <img src="images/amla-oil.png" style="width: 100%;">
+                                    <h4 class="my-3">Bread Oil</h4>
+                                    <p class="site_price">$45.00</p>
+                                    <a href="shop.html?action=add_to_cart" class="shop_btn my-5" name="add_to_cart">Add to cart</a>
+                                </div><!--shop-inner-most-->
+                                <div class="shop-actions">
+                                    <a href="view-product.html"><i class="fa-solid fa-eye"></i></a>
+                                    <a href="shop.html?action=add_to_wishlist"><i class="fa-solid far fa-heart"></i></a>
+                                </div><!--shop-actions-->
+                            </div><!--shop-inner-->
+                        </div><!--col-lg-4-->
+                    </div><!--row-->
+                    
+                    <div class="row my-3">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="shop-inner my-2">
+                                <div class="shop-inner-most text-center py-5">
+                                    <img src="images/amla-oil.png" style="width: 100%;">
+                                    <h4 class="my-3">Bread Oil</h4>
+                                    <p class="site_price">$45.00</p>
+                                    <a href="shop.html?action=add_to_cart" class="shop_btn my-5" name="add_to_cart">Add to cart</a>
+                                </div><!--shop-inner-most-->
+                                <div class="shop-actions">
+                                    <a href="view-product.html"><i class="fa-solid fa-eye"></i></a>
+                                    <a href="shop.html?action=add_to_wishlist"><i class="fa-solid far fa-heart"></i></a>
+                                </div><!--shop-actions-->
+                            </div><!--shop-inner-->
+                        </div><!--col-lg-4-->
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="shop-inner my-2">
+                                <div class="shop-inner-most text-center py-5">
+                                    <img src="images/amla-oil.png" style="width: 100%;">
+                                    <h4 class="my-3">Bread Oil</h4>
+                                    <p class="site_price">$45.00</p>
+                                    <a href="shop.html?action=add_to_cart" class="shop_btn my-5" name="add_to_cart">Add to cart</a>
+                                </div><!--shop-inner-most-->
+                                <div class="shop-actions">
+                                    <a href="view-product.html"><i class="fa-solid fa-eye"></i></a>
+                                    <a href="shop.html?action=add_to_wishlist"><i class="fa-solid far fa-heart"></i></a>
+                                </div><!--shop-actions-->
+                            </div><!--shop-inner-->
+                        </div><!--col-lg-4-->
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="shop-inner my-2">
+                                <div class="shop-inner-most text-center py-5">
+                                    <img src="images/amla-oil.png" style="width: 100%;">
+                                    <h4 class="my-3">Bread Oil</h4>
+                                    <p class="site_price">$45.00</p>
+                                    <a href="shop.html?action=add_to_cart" class="shop_btn my-5" name="add_to_cart">Add to cart</a>
+                                </div><!--shop-inner-most-->
+                                <div class="shop-actions">
+                                    <a href="view-product.html"><i class="fa-solid fa-eye"></i></a>
+                                    <a href="shop.html?action=add_to_wishlist"><i class="fa-solid far fa-heart"></i></a>
+                                </div><!--shop-actions-->
+                            </div><!--shop-inner-->
+                        </div><!--col-lg-4-->
+                    </div><!--row-->
+
+                    <div class="row my-3">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="shop-inner my-2">
+                                <div class="shop-inner-most text-center py-5">
+                                    <img src="images/amla-oil.png" style="width: 100%;">
+                                    <h4 class="my-3">Bread Oil</h4>
+                                    <p class="site_price">$45.00</p>
+                                    <a href="shop.html?action=add_to_cart" class="shop_btn my-5" name="add_to_cart">Add to cart</a>
+                                </div><!--shop-inner-most-->
+                                <div class="shop-actions">
+                                    <a href="view-product.html"><i class="fa-solid fa-eye"></i></a>
+                                    <a href="shop.html?action=add_to_wishlist"><i class="fa-solid far fa-heart"></i></a>
+                                </div><!--shop-actions-->
+                            </div><!--shop-inner-->
+                        </div><!--col-lg-4-->
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="shop-inner my-2">
+                                <div class="shop-inner-most text-center py-5">
+                                    <img src="images/amla-oil.png" style="width: 100%;">
+                                    <h4 class="my-3">Bread Oil</h4>
+                                    <p class="site_price">$45.00</p>
+                                    <a href="shop.html?action=add_to_cart" class="shop_btn my-5" name="add_to_cart">Add to cart</a>
+                                </div><!--shop-inner-most-->
+                                <div class="shop-actions">
+                                    <a href="view-product.html"><i class="fa-solid fa-eye"></i></a>
+                                    <a href="shop.html?action=add_to_wishlist"><i class="fa-solid far fa-heart"></i></a>
+                                </div><!--shop-actions-->
+                            </div><!--shop-inner-->
+                        </div><!--col-lg-4-->
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="shop-inner my-2">
+                                <div class="shop-inner-most text-center py-5">
+                                    <img src="images/amla-oil.png" style="width: 100%;">
+                                    <h4 class="my-3">Bread Oil</h4>
+                                    <p class="site_price">$45.00</p>
+                                    <a href="shop.html?action=add_to_cart" class="shop_btn my-5" name="add_to_cart">Add to cart</a>
+                                </div><!--shop-inner-most-->
+                                <div class="shop-actions">
+                                    <a href="view-product.html"><i class="fa-solid fa-eye"></i></a>
+                                    <a href="shop.html?action=add_to_wishlist"><i class="fa-solid far fa-heart"></i></a>
+                                </div><!--shop-actions-->
+                            </div><!--shop-inner-->
+                        </div><!--col-lg-4-->
+                    </div><!--row-->
+
+                    <div class="pagination_wrap pt-5">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item"><a class="page-link" href="#"><i class="fa fa-angle-double-left"></i></a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link current" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item"><a class="page-link" href="#"><i class="fa fa-angle-double-right"></i></a></li>
+                        </ul>
+                    </div><!--pagination-->
+                </div><!--col-lg-9-->
+            </div><!--row-->
+        </div><!--container-->
+    </section>
+    <!-- shop section end -->
+    
+    <!-- featured products start -->
+    <section class="featured-products change_bg">
+        <div class="container text-center py-5">
+            <h4 class="site_text display-6 mb-5">Featured Products</h4>
+            <div class="row slick-slider">
+                <div class="col-md-12 m-3">
+                    <div class="shop-inner">
+                        <div class="shop-inner-most text-center bg-white py-5">
+                            <img src="images/amla-oil.png" style="width: 100%;">
+                            <h4 class="my-3">Bread Oil</h4>
+                            <p class="site_price">$45.00</p>
+                            <a href="shop.html?action=add_to_cart" class="shop_btn my-5" name="add_to_cart">Add to cart</a>
+                        </div><!--shop-inner-most-->
+                        <div class="shop-actions">
+                            <a href="view-product.html"><i class="fa-solid fa-eye"></i></a>
+                            <a href="shop.html?action=add_to_wishlist"><i class="fa-solid far fa-heart"></i></a>
+                        </div><!--shop-actions-->
+                    </div><!--shop-inner-->
+                </div><!--col-lg-12-->
+                <div class="col-md-12 m-3">
+                    <div class="shop-inner">
+                        <div class="shop-inner-most text-center bg-white py-5">
+                            <img src="images/amla-oil.png" style="width: 100%;">
+                            <h4 class="my-3">Bread Oil</h4>
+                            <p class="site_price">$45.00</p>
+                            <a href="shop.html?action=add_to_cart" class="shop_btn my-5" name="add_to_cart">Add to cart</a>
+                        </div><!--shop-inner-most-->
+                        <div class="shop-actions">
+                            <a href="view-product.html"><i class="fa-solid fa-eye"></i></a>
+                            <a href="shop.html?action=add_to_wishlist"><i class="fa-solid far fa-heart"></i></a>
+                        </div><!--shop-actions-->
+                    </div><!--shop-inner-->
+                </div><!--col-lg-12-->
+                <div class="col-md-12 m-3">
+                    <div class="shop-inner">
+                        <div class="shop-inner-most text-center bg-white py-5">
+                            <img src="images/amla-oil.png" style="width: 100%;">
+                            <h4 class="my-3">Bread Oil</h4>
+                            <p class="site_price">$45.00</p>
+                            <a href="shop.html?action=add_to_cart" class="shop_btn my-5" name="add_to_cart">Add to cart</a>
+                        </div><!--shop-inner-most-->
+                        <div class="shop-actions">
+                            <a href="view-product.html"><i class="fa-solid fa-eye"></i></a>
+                            <a href="shop.html?action=add_to_wishlist"><i class="fa-solid far fa-heart"></i></a>
+                        </div><!--shop-actions-->
+                    </div><!--shop-inner-->
+                </div><!--col-lg-12-->
+                <div class="col-md-12 m-3">
+                    <div class="shop-inner">
+                        <div class="shop-inner-most text-center bg-white py-5">
+                            <img src="images/amla-oil.png" style="width: 100%;">
+                            <h4 class="my-3">Amla Oil</h4>
+                            <p class="site_price">$45.00</p>
+                            <a href="shop.html?action=add_to_cart" class="shop_btn my-5" name="add_to_cart">Add to cart</a>
+                        </div><!--shop-inner-most-->
+                        <div class="shop-actions">
+                            <a href="view-product.html"><i class="fa-solid fa-eye"></i></a>
+                            <a href="shop.html?action=add_to_wishlist"><i class="fa-solid far fa-heart"></i></a>
+                        </div><!--shop-actions-->
+                    </div><!--shop-inner-->
+                </div><!--col-lg-12-->
+                <div class="col-lg-12 m-3">
+                    <div class="shop-inner">
+                        <div class="shop-inner-most text-center bg-white py-5">
+                            <img src="images/amla-oil.png" style="width: 100%;">
+                            <h4 class="my-3">Amla Oil</h4>
+                            <p class="site_price">$45.00</p>
+                            <a href="shop.html?action=add_to_cart" class="shop_btn my-5" name="add_to_cart">Add to cart</a>
+                        </div><!--shop-inner-most-->
+                        <div class="shop-actions">
+                            <a href="view-product.html"><i class="fa-solid fa-eye"></i></a>
+                            <a href="shop.html?action=add_to_wishlist"><i class="fa-solid far fa-heart"></i></a>
+                        </div><!--shop-actions-->
+                    </div><!--shop-inner-->
+                </div><!--col-lg-12-->
+            </div><!--row-->
+        </div><!--container-->            
+    </section><!--featured-products-->
+    <!-- featured products end -->
+    
+    <!-- footer start -->
+    <footer>
+        <div class="top-footer">
+            <div class="container">
+                <div class="row text-white">
+                    <div class="col-lg-4 col-sm-12 p-3 text-center">
+                        <a href="index.html"><img src="images/logo-white.png" style="width: 100%;"></a>
+                    </div><!--col-lg-4-->
+                    <div class="col-lg-4 col-sm-12 p-3" style="background-color: rgba(131, 214, 37, 0.69);">
+                        <form action="" method="post">
+                            <i class="fa-regular fa-envelope"></i>
+                            <input type="text" name="subscribe_input" class="subscribe_input" placeholder="Email address">
+                            <button class="subscribe_btn" name="subscribe_btn">Submit</button>
+                        </form>
+                    </div><!--col-lg-4-->
+                    <div class="col-lg-4 col-sm-12 p-3">
+                        <div class="social-links text-end p-3">
+                            <a href="#" class="links mx-3"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="links mx-3"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class="links mx-3"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#" class="links mx-3"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#" class="links mx-3"><i class="fa-brands fa-instagram"></i></a>
+                        </div><!--social-links-->
+                    </div><!--col-lg-4-->
+                </div><!--row-->
+            </div><!--container-->
+        </div><!--top-footer-->
+
+        <div class="main-footer">
+            <div class="container">
+                <div class="row my-5">
+                    <div class="col-lg-4 col-sm-12 footer-col-1 p-3">
+                        <h5 class="site_font">About Us</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi tempore illo veritatis molestias laudantium unde at quasi, fuga alias necessitatibus voluptatibus aliquam in odit! Culpa.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, asperiores!</p>
+                    </div><!--col-lg-4-->
+                    <div class="col-lg-4 col-sm-12 footer-col-2 p-3">
+                        <h5 class="site_font">Useful Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html" class="nav-links">Home</a></li>
+                            <li><a href="blog-right-sidebar.html" class="nav-links">Blog</a></li>
+                            <li><a href="shop.html" class="nav-links">Shop</a></li>
+                            <li><a href="about.html" class="nav-links">About</a></li>
+                            <li><a href="contact.html" class="nav-links">Contact</a></li>
+                            <li><a href="login.html" class="nav-links">Login</a></li>
+                            <li><a href="register.html" class="nav-links">Register</a></li>
+                        </ul>
+                    </div><!--col-lg-4-->
+                    <div class="col-lg-4 col-sm-12 footer-col-3 p-3">
+                        <h5 class="site_font">Contact Us</h5>
+                        <p>Address: H0# 321 St#11 Koh-e-Noor Housing Society Lahore, Pakistan.</p>
+                        <p>Email: amirliaqat2020@gmail.com</p>
+                        <p>Phone: +92 03090886518</p>
+                    </div><!--col-lg-4-->
+                </div><!--row-->
+            </div><!--container-->
+        </div><!--main-footer-->
+
+        <div class="bottom-footer">
+            <div class="container">
+                <div class="row text-white p-2">
+                    <div class="col-lg-4 col-sm-12-1 p-2">
+                        <p class="mb-0">© 2022 All Rights Reserved</p>
+                    </div><!--col-lg-4-->
+                    <div class="col-lg-4 col-sm-12 text-center p-2">
+                        <a href="#top" class="back_to_top"><i class="fa fa-angle-up"></i></a>
+                    </div><!--col-lg-4-->
+                    <div class="col-lg-4 col-sm-12 p-2">
+                        <a href="privacy-policy.html" class="text-white">Privacy Policy</a>
+                        <a href="terms-conditions.html" class="text-white">Terms & Conditions</a>
+                        <a href="faq.html" class="text-white">FAQ</a>
+                    </div><!--col-lg-4-->
+                </div><!--row-->
+            </div><!--container-->
+        </div><!--bottom-footer-->
+    </footer>
+    <!-- footer end -->
+
+    <!-- jquery js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- slick slider js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- custom js -->
+    <script src="assets/js/script.js"></script>
+    <!-- bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>
